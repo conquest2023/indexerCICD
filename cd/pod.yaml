@@ -9,7 +9,7 @@ spec:
   restartPolicy: Always
   containers:
     - name: indexer
-      image: wngud1/indexer:0.0.2
+      image: wngud1/indexer:0.0.3
       imagePullPolicy: IfNotPresent
       envFrom:
         - secretRef:
